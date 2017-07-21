@@ -3,7 +3,7 @@ import { Grid, Navbar, Nav, NavItem } from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
 import {LinkContainer} from 'react-router-bootstrap';
 import './Style.css';
-import logo from './logo-white.svg';
+import logo from './logo-horizontal-white.svg';
 
 
 class Header extends Component {

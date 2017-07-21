@@ -1,4 +1,22 @@
-.logo {
-  height: 25px;
+.navbar {
+  height: 55px; }
 
-}
+.navbar .navbar-nav a {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 15px; }
+
+.navbar .navbar-brand {
+  padding: 0; }
+
+.navbar .logo {
+  height: 55px;
+  padding: 2px;
+  /*
+    height: 100px;
+    margin-right: 20px;
+    background-color: #008CBA;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.4);
+  */ }
