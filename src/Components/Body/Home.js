@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {  Button } from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 import './Home.css';
-import handshake from './images/flowchart.png';
+import handshake from './images/team_handshake.jpg';
 import Scrollspy from 'react-scrollspy'
 
 class Home extends Component {
@@ -19,7 +19,9 @@ class Home extends Component {
               We serve a community of software developers and permit regulators.
             </h4>
             <h4>
-              Our Permit Development Platform provides:
+              <small>
+                Our Permit Development Platform provides:
+              </small>
             </h4>
 
             <ul>
@@ -42,7 +44,7 @@ class Home extends Component {
           </div>
         </div>
 
-        
+
 
 
       </div>
