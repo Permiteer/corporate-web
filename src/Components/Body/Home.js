@@ -17,7 +17,7 @@ class Home extends Component {
 
             <h3><small>What We Do</small></h3>
             <p>
-              Permiteer is a platform for government agencies to develop successful permit workflow applications.
+              Permiteer is a platform for government agencies to develop online permiting workflow applications.
             </p>
 
 

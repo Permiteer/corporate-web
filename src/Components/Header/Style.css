@@ -1,15 +1,27 @@
+/*
 .navbar {
-  height: 55px; }
-
-.navbar .navbar-nav a {
-  font-size: 18px;
-  margin-top: 10px;
-  margin-left: 15px; }
-
-.navbar .navbar-brand {
-  padding: 0;
-  height: auto; }
-
-.navbar .logo {
   height: 55px;
-  padding: 2px; }
+}
+
+.navbar {
+
+  .navbar-nav a {
+    font-size: 18px;
+    margin-top:10px;
+    margin-left: 15px;
+  }
+
+  .navbar-brand {
+    padding: 0;
+    height: auto;
+  }
+
+  .logo {
+    height: 55px;
+    padding: 2px;
+  }
+
+}
+*/
+.navbar .logo {
+  height: 25px; }
