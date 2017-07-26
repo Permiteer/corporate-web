@@ -14,30 +14,36 @@ class Home extends Component {
           <div className='col-md-6'>
 
             <h2>Permit Development Platform</h2>
-            <h3><small></small></h3>
-            <h4>
-              We serve a community of software developers and permit regulators.
-            </h4>
-            <h4>
-              <small>
-                Our Permit Development Platform provides:
-              </small>
-            </h4>
 
-            <ul>
-              <li>Project template ecosystem for getting started quickly</li>
-              <li>Project management tools for documenting complete system requirements</li>
-              <li>Drag & drop workflow, flow chart, and form editors</li>
-              <li>Live demo of your project website</li>
-              <li>Extensible plugin architecture</li>
-            </ul>
+            <h3><small>What We Do</small></h3>
+            <p>
+              Permiteer is a platform for government agencies to develop successful permit workflow applications.
+            </p>
 
 
-            <div style={{marginTop:40}}>
-              <LinkContainer to="/demo">
-                <Button bsStyle="primary">Request a Demo</Button>
-              </LinkContainer>
-            </div>
+            <h3><small>How We Do It</small></h3>
+            <p>
+              Our approach is different. Instead of starting with complete systems that are
+              expensive to modifiy (COTS), we provide tools and automate practices that have
+              proven successful in developing permit applicaions.
+            </p>
+
+            <h3><small>Why</small></h3>
+            <p>
+              Permit regulation is the mechanism we use to protect our environment and public safety.
+              We believe that helping government agencies become more effective will
+              lead to a safer environment and stronger economy.
+            </p>
+
+
+
+            <p>
+              Request a demo to see how we do it
+            </p>
+            <LinkContainer to="/demo">
+              <Button bsStyle="primary">Request a Demo</Button>
+            </LinkContainer>
+
           </div>
           <div className='col-md-6'>
             <img className="img-fluid" style={{height: 'auto', maxWidth: '100%'}} src={handshake}/>
